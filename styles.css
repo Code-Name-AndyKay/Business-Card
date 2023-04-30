@@ -1,0 +1,48 @@
+body {
+    margin: 20px;
+    font-family: Helvetica, sans-serif;
+}
+
+.profile-pic{
+    width: 150px;
+    border-radius: 75px;
+    transition: transform 1s;
+}
+
+.profile-pic:hover{
+    width: 150px;
+    border-radius: 75px;
+    transform: scale(.9) rotate(-10deg);
+}
+.card {
+    
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+    margin: auto auto;
+    
+    text-align: left;
+    
+    background-color: #252422;
+}
+
+.text{
+    color: white;
+    transition: transform .5s;
+    transition: color 0.25s;
+}
+
+.text:hover{
+    color: #eb5e28;
+    transform: scale(.95);   
+}
+
+.bottom-border{
+    border-bottom: 7px solid #eb5e28;
+    
+}
+
+.card-round{
+   border-radius: 20px  
+}
